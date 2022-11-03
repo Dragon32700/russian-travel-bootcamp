@@ -1,0 +1,23 @@
+.page {
+    background-color: #2A2C2F;
+    min-width: calc(100% - 20px);
+    font-family: 'Inter', 'Arial', sans-serif;
+}
+
+@media screen and (max-width: 1279px) {
+    .page {
+        min-width: calc(100% - 16px);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .page {
+        min-width: calc(100% - 16px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page {
+        min-width: calc(100% - 16px);
+    }
+}
